@@ -1,0 +1,6 @@
+font2c_SOURCES = font2c.c
+
+bin_PROGRAMS = font2c
+
+font2c_CPPFLAGS = @FREETYPE2_CFLAGS@
+font2c_LDADD = @FREETYPE2_LIBS@
