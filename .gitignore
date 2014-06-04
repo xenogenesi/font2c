@@ -13,4 +13,5 @@ build-aux/
 aclocal.m4
 autom4te.cache/
 .*.swp
+font2c.debhelper.log
 

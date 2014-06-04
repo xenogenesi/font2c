@@ -1,0 +1,13 @@
+build:
+autogen.sh --prefix=$HOME/install # or wherever you prefer
+make install
+
+get the tar.gz:
+make dist
+
+build the .deb:
+fakeroot debian/rules binary
+
+usage:
+font2c [font full path] [>output-c-bmp-font.xbm] # default stdout
+

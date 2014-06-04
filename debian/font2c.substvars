@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.3.4), libfreetype6 (>= 2.2.1)
+misc:Depends=

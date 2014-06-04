@@ -1,0 +1,13 @@
+Source: font2c
+Section: unknown
+Priority: optional
+Maintainer: Alex <xenogenesi@virgilio.it>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libfreetype6-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/xenogenesi/font2c
+
+Package: font2c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: convert font to xbm (c header) using the freetype library
+ convert font to xbm (c header) using the freetype library
